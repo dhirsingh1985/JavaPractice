@@ -12,6 +12,7 @@ public class genericsClass<T> {
 	void showType()
 	{
 		System.out.println("Current object type is :" +obj.getClass().getName());
+		System.out.println();
 	}
 	
 }
